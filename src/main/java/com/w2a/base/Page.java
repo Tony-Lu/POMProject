@@ -32,6 +32,7 @@ public class Page {
 //		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\executables\\geckodriver.exe");
 //		driver=new FirefoxDriver();
 		
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://www.zoho.com");
