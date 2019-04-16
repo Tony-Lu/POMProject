@@ -1,22 +1,8 @@
-12/04/2019 10:38:11 devpinoyLogger Config file loaded !!!
-12/04/2019 10:38:11 devpinoyLogger OR file loaded !!!
-12/04/2019 10:38:15 devpinoyLogger Chrome launched !!!
-12/04/2019 10:38:18 devpinoyLogger Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
-12/04/2019 10:38:18 devpinoyLogger inside Login Test
-12/04/2019 10:38:19 devpinoyLogger Login successfully executed 
-12/04/2019 10:38:20 devpinoyLogger Add Customer button on Top clicked
-12/04/2019 10:38:20 devpinoyLogger exceldata: firstname inserted
-12/04/2019 10:38:20 devpinoyLogger exceldata: lastname inserted
-12/04/2019 10:38:20 devpinoyLogger exceldata: postcode inserted
-12/04/2019 10:38:20 devpinoyLogger Add Customer button at bottom clicked
-12/04/2019 10:38:25 devpinoyLogger Add Customer button on Top clicked
-12/04/2019 10:38:25 devpinoyLogger exceldata: firstname inserted
-12/04/2019 10:38:25 devpinoyLogger exceldata: lastname inserted
-12/04/2019 10:38:25 devpinoyLogger exceldata: postcode inserted
-12/04/2019 10:38:25 devpinoyLogger Add Customer button at bottom clicked
-12/04/2019 10:38:29 devpinoyLogger Add Customer button on Top clicked
-12/04/2019 10:38:29 devpinoyLogger exceldata: firstname inserted
-12/04/2019 10:38:29 devpinoyLogger exceldata: lastname inserted
-12/04/2019 10:38:30 devpinoyLogger exceldata: postcode inserted
-12/04/2019 10:38:30 devpinoyLogger Add Customer button at bottom clicked
-12/04/2019 10:38:35 devpinoyLogger Test execution completed !!!
+16/04/2019 09:34:36 devpinoyLogger Config file loaded !!!
+16/04/2019 09:34:36 devpinoyLogger OR file loaded !!!
+16/04/2019 09:34:40 devpinoyLogger Chrome launched !!!
+16/04/2019 09:34:44 devpinoyLogger Navigated to : http://www.zoho.com/
+16/04/2019 09:34:45 devpinoyLogger Clicking on an Element : loginlink_CSS
+16/04/2019 09:34:46 devpinoyLogger Typing in an Element : email_CSSEntered value as : tony.lucanada@gmail.com
+16/04/2019 09:34:46 devpinoyLogger Typing in an Element : password_CSSEntered value as : zohoAccount123
+16/04/2019 09:34:47 devpinoyLogger Clicking on an Element : signbtn_CSS
