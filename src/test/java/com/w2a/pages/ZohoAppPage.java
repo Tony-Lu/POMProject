@@ -16,8 +16,8 @@ public class ZohoAppPage extends Page {
 	}
 
 	public CRMHomePage goToCRM() {
-
-		driver.findElement(By.cssSelector(".zicon-apps-crm.zicon-apps-96")).click();
+		
+		click("goToCRM_CSS");
 		
 		return new CRMHomePage();
 	}

@@ -33,7 +33,7 @@ public class TopMenu {
 
 	public AccountsPage goToAccounts() {
 
-		driver.findElement(By.xpath("//div[@class='lyteMenuItems']//div[4]")).click();
+		Page.click("accountstab_XPATH");
 		
 		return new AccountsPage();
 	}

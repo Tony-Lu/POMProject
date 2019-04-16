@@ -8,10 +8,10 @@ public class AccountsPage extends Page {
 	
 	public CreateAccountPage goToCreateAccounts() {
 
-		driver.findElement(By.cssSelector("lyte-button#submenu_Accounts>button.lyte-button.lytePrimaryBtn")).click();
+		click("createaccountbtn_CSS");
 		
 		return new CreateAccountPage();
-//		menu.signOut();
+
 	}
 
 	public void goToImportAccounts() {

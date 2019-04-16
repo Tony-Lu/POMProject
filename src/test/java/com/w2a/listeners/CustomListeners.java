@@ -99,7 +99,7 @@ public class CustomListeners extends Page implements ITestListener,ISuiteListene
 //		MonitoringMail mail = new MonitoringMail();		
 //		try {
 //			messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()
-//					+ ":8080/job/PageObjectModelBasicsProject/Extent_Reports/";
+//					+ ":8080/job/PageObjectModelBasics/Extent_20Report/";
 //		} catch (UnknownHostException e1) {
 //			// TODO Auto-generated catch block
 //			e1.printStackTrace();

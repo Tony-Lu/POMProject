@@ -106,17 +106,17 @@ public class Page {
 			} else if (config.getProperty("browser").equals("chrome")) {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
 						+ "\\src\\test\\resources\\com\\w2a\\executables\\chromedriver.exe");
-//				Map<String, Object> prefs = new HashMap<String, Object>();
-//				prefs.put("profile.default_content_setting_values.notifications", 2);
-//				prefs.put("credentials_enable_service", false);
-//				prefs.put("profile.password_manager_enabled", false);
-//				ChromeOptions options = new ChromeOptions();
-//				options.setExperimentalOption("prefs", prefs);
-//				options.addArguments("--disable-extensions");
-//				options.addArguments("--disable-infobars");
-//				driver = new ChromeDriver(options);
+				Map<String, Object> prefs = new HashMap<String, Object>();
+				prefs.put("profile.default_content_setting_values.notifications", 2);
+				prefs.put("credentials_enable_service", false);
+				prefs.put("profile.password_manager_enabled", false);
+				ChromeOptions options = new ChromeOptions();
+				options.setExperimentalOption("prefs", prefs);
+				options.addArguments("--disable-extensions");
+				options.addArguments("--disable-infobars");
+				driver = new ChromeDriver(options);
 				// ============================================
-				driver = new ChromeDriver();
+//				driver = new ChromeDriver();
 				log.debug("Chrome launched !!!");
 			}
 
@@ -140,7 +140,7 @@ public class Page {
 	}
 
 	//Common keywords
-	public void click(String locator) {
+	public static void click(String locator) {
 
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
@@ -154,7 +154,7 @@ public class Page {
 
 	}
 
-	public void type(String locator, String value) {
+	public static void type(String locator, String value) {
 
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
@@ -169,7 +169,7 @@ public class Page {
 
 	static WebElement dropdown;
 
-	public void select(String locator, String value) {
+	public static void select(String locator, String value) {
 
 		if (locator.endsWith("_CSS")) {
 			dropdown = driver.findElement(By.cssSelector(OR.getProperty(locator)));
@@ -186,7 +186,7 @@ public class Page {
 		test.log(LogStatus.INFO, "Selecting from the dropdown : " + locator + " value as " + value);
 	}
 
-	public boolean isElementPresent(By by) {
+	public static boolean isElementPresent(By by) {
 
 		try {
 			driver.findElement(by);

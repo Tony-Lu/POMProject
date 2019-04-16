@@ -15,6 +15,12 @@
 			<class name="com.w2a.testcases.LoginTest" />
 		</classes>
 	</test>
+	
+	<test name="Create Account Test">
+		<classes>
+			<class name="com.w2a.testcases.CreateAccountTest" />
+		</classes>
+	</test>
 
 	
 
